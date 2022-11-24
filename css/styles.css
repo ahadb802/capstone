@@ -717,6 +717,11 @@ body {
 
   .Program-content ul li {
     flex-direction: row;
+    width: 100%;
+  }
+
+  .Program-content ul li a {
+    width: 40%;
   }
 
   .Program-content1 {
