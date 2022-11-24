@@ -1,0 +1,879 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.top-info {
+  background: #272a31;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 35px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #272a31;
+  font-style: normal;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.mid-info li {
+  list-style: none;
+  padding: 10px;
+}
+
+.campaign a {
+  color: #ec5242 !important;
+}
+
+.logo1 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #272a31;
+  font-style: normal;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.github a {
+  color: #d3d3d3 !important;
+}
+
+.github p {
+  color: #d3d3d3 !important;
+}
+
+.mid-info li a {
+  text-decoration: none;
+  color: #272a31;
+  font-style: normal;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.campaign {
+  border: 5px solid #ec5242;
+}
+
+.top-info ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0 100px 0 0;
+}
+
+.top-info ul li {
+  list-style: none;
+}
+
+.top-info ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-style: normal;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.mid-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+  flex-wrap: wrap;
+  margin: 10px 100px;
+  height: auto;
+}
+
+.poti img {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+
+.head img {
+  opacity: 0.1;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 115px;
+}
+
+.speaker-info img {
+  width: 150px;
+  height: 150px;
+}
+
+.head1 img {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+.logo a img {
+  width: 26px;
+  height: 26px;
+}
+
+.mid-info ul {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin: 0;
+  padding: 0%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+  width: 60%;
+}
+
+.headline1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greetings {
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  color: #ec5242;
+}
+
+.title {
+  font-family: 'cocogoose', 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  color: #ec5242;
+  background-color: transparent;
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.narates {
+  border: 5px solid white;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+  color: #272a31;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.narate {
+  margin: 20px 0 0 0;
+  width: 70%;
+  height: auto;
+  align-items: center;
+  padding: 20px;
+  color: #272a31;
+  background: white !important;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 15px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.date {
+  font-family: 'cocogoose', 'Times New Roman', Times, serif;
+  font-weight: 100;
+  color: #272a31;
+  margin-top: 5%;
+}
+
+.venu {
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #272a31;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #000;
+}
+
+.Program {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-title {
+  margin-top: 25px;
+  color: #d3d3d3;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.main-title1 {
+  margin-top: 25px;
+  color: #d3d3d3;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.line {
+  height: 2px;
+  width: 50px;
+  background-color: #ec5242;
+}
+
+.Program-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Program-content1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.Program-content ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  gap: 2px;
+  padding: 0;
+}
+
+.Program-content1 ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  gap: 30px;
+  padding: 0;
+}
+
+.Program-content ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  gap: 10px;
+}
+
+.Program-content1 ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.Program-content ul li:hover {
+  border: 2px solid white;
+}
+
+.speaker-info p {
+  color: #272a31;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.Program-content ul li img {
+  height: 30px;
+  width: 30px;
+}
+
+.Program-content1 ul li img {
+  height: 80px;
+  width: 80px;
+}
+
+.Program-content ul li a {
+  color: #ec5242;
+  text-decoration: none;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.Program-content ul li p {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.pg {
+  background-color: #272a31;
+}
+
+.pg1 {
+  background-color: #272a31;
+}
+
+.join {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: #d3d3d3;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.speaker-title {
+  margin-top: 25px;
+  color: #272a31;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.speakers {
+  margin-top: 60px;
+}
+
+.card {
+  border: none;
+}
+
+.speaker-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.speaker-info h5 {
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #272a31;
+  margin: 0 0 10px 0;
+}
+
+.speaker-info h6 {
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 12px;
+  color: #ec5242;
+}
+
+.speaker-info span {
+  display: block;
+  height: 1px !important;
+  width: 25px;
+  background-color: #272a31;
+  margin: 0 0 5px 0;
+}
+
+@media screen and (max-width: 1340px) {
+  .mid-info {
+    gap: 0;
+  }
+
+  .mid-info ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0%;
+  }
+}
+
+/* about page */
+.head1 {
+  background-color: #d3d3d3 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+
+.title-about {
+  font-family: 'cocogoose', 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  color: #ec5242;
+}
+
+.contact {
+  margin: 50px 0 0 0;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 400;
+  color: #272a31;
+}
+
+.email {
+  margin: 10px 0 25px 0;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 600;
+  color: #272a31;
+}
+
+.About-title {
+  margin: 50px 0 10px 0;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.discuss {
+  margin: 10px 0 10px 0;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #272a31;
+}
+
+.logo1 {
+  margin: 10px 0 40px 0;
+  border: 2px solid #272a31;
+  padding: 20px;
+}
+
+.logo-history {
+  border-top: 2px solid #8a8b8b;
+  border-bottom: 2px solid #8a8b8b;
+}
+
+.history {
+  width: 70%;
+  margin: 0 0 30px 0;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.poti {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+}
+
+.poti .card {
+  width: 100%;
+  height: 200px;
+}
+
+.poti .card-body {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+}
+
+.poti2 {
+  position: absolute;
+  background-color: rgba(226, 53, 53, 0.732);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.poti h5 {
+  color: white;
+  font-style: normal;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.poti h6 {
+  color: white;
+  font-style: normal;
+  font-family: 'lato', 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.footer-about {
+  background: #272a31;
+}
+
+.pg3 {
+  display: none;
+}
+
+.footer-about1 {
+  display: none;
+}
+
+.Program-content ul li article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .top-info {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+
+  .active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .mid-info {
+    z-index: 2;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: -100%;
+    right: 0;
+    border-bottom-right-radius: 100%;
+    transition: height 0.5s, border-radius 0.5s;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px !important;
+    margin-top: 40px !important;
+  }
+
+  .mid-info.active {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .head img {
+    position: absolute;
+    top: 0 !important;
+    height: 100vh;
+  }
+
+  .headline {
+    margin: 0;
+    width: 100%;
+    margin-top: 20%;
+    gap: 10px;
+  }
+
+  .greetings {
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    color: #ec5242;
+  }
+
+  .title {
+    font-family: 'cocogoose', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: #ec5242;
+    background-color: red;
+
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .narates {
+    border: 5px solid white;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: #272a31;
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+  .date {
+    font-family: 'cocogoose', 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #272a31;
+    margin-top: 5%;
+    font-size: medium;
+  }
+
+  .venu {
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #272a31;
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  .Program-content ul {
+    flex-direction: column;
+  }
+
+  .Program-content ul li {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Program-content ul li article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .speaker-info img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Program-content1 ul li img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .Program-content ul li article img {
+    width: 20%;
+  }
+
+  .Program-content ul li article a {
+    width: 35%;
+  }
+
+  .speaker-info p {
+    color: #272a31;
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 12px;
+    height: 35px;
+    overflow: hidden;
+    margin: 5px 0 0 0;
+  }
+
+  .Program-content ul li article p {
+    width: 65%;
+  }
+
+  .Program-content1 {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .Program-content1 ul {
+    margin: 0;
+  }
+
+  .Program-content1 ul li {
+    flex-direction: row;
+  }
+
+
+  .join {
+    margin-top: 30px;
+    height: 60px;
+    padding: 10px;
+    background-color: #ec5242;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #d3d3d3;
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .speakers {
+    margin-top: 30px;
+  }
+
+  .speaker-info h5 {
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #272a31;
+    margin: 0;
+  }
+
+  .speaker-info h6 {
+    margin: 5px 0 0 0;
+    font-family: 'lato', 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 8px;
+    color: #ec5242;
+  }
+
+  .speaker-info line {
+    height: 2px !important;
+    width: 50px !important;
+    background-color: #272a31;
+  }
+
+
+  .speaker-info span {
+    height: 1px !important;
+    width: 20px !important;
+    background-color: #272a31;
+    margin: 5px 0 5px 0;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+
+  .history {
+    flex-direction: column;
+  }
+
+  .pg3 {
+    display: block;
+    background-color: #272a31;
+  }
+
+  .footer-about {
+    display: none;
+  }
+
+  .footer-about1 {
+    justify-content: center;
+    height: 100px;
+    display: block;
+  }
+
+  .Program-content3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Program-content3 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .Program-content3 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+}
