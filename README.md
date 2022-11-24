@@ -17,6 +17,7 @@
 
 You can check my website by open the link below
 
+https://ahadb802.github.io/capstone/
 
 ## Get Started
 
@@ -69,9 +70,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Original design idea by Cindy Shin in Behance.
+
+The Creative Commons license of the design requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
 
 ## 📝 License
 
