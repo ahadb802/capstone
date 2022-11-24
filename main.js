@@ -32,12 +32,12 @@ arr.forEach((item) => {
   htr.innerHTML += `<div class="col-sm-6">
                             <div class="card">
                                 <div class="speaker-info">
-                                 <img class="speaker-pic" src="${item?.pic ?? ""}" alt="aaron francis speaker image">
+                                 <img class="speaker-pic" src="${item.pic}" alt="aaron francis speaker image">
                                     <div>
-                                     <h5 class="card-title">${item?.name ?? ""}</h5>
-                                    <h6 href="" class="occupation">${item?.occupation ?? ""}</h6>
+                                     <h5 class="card-title">${item.name}</h5>
+                                    <h6 href="" class="occupation">${item.occupation}</h6>
                                  <span></span>
-                             <p class="card-text">${item?.about ?? ""}</p>
+                             <p class="card-text">${item.about}</p>
                             </div>
                             </div>
                              </div>
