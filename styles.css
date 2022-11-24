@@ -781,7 +781,6 @@ body {
     flex-direction: row;
   }
 
-
   .join {
     margin-top: 30px;
     height: 60px;
@@ -822,7 +821,6 @@ body {
     width: 50px !important;
     background-color: #272a31;
   }
-
 
   .speaker-info span {
     height: 1px !important;
