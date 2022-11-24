@@ -17,7 +17,7 @@
 
 You can check my website by open the link below
 
-https://ahadb802.github.io/capstone/
+https://taupe-parfait-5fa396.netlify.app/
 
 ## Get Started
 
